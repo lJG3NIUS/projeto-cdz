@@ -20,74 +20,80 @@ body{
 }
 
 
-
-
-nav{
-    background-color: rgba(86, 200, 245, 0.137);
-    height: 60px;
-    text-align: center;
-    box-shadow: 0px 5px 10px rgba(150, 253, 253, 0.384);
-    
-    
-}
-
-div{
-    background-color: rgba(62, 103, 119, 0.137);
-    display: inline-block;
-    margin-right: 10px;
-    margin-top: 10px;
-    width: 200px;
-    height: 50px;
-    box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.418);
-    border-radius: 5px 5px 0px 0px;
-    
-}
-
 div img{
     border-radius: 50%;
     width: 40px;
-    margin-right: 3px;
-    transform: translate(-2px,3px);
+    margin-right: 5px;
+    transform: translate(-5px,10px);
 }
 
-div:hover{
-    box-shadow: 0px 5px 7px rgba(60, 173, 248, 0.596);
-    transform: translate(0px, -3px);
-    transition: border 0.5s, transform 0.5s,box-shadow .5s;
-}
+
 
 div a{
     text-decoration: none;
-    color: white;
+    color: white;  
 
 }
 
-.iconeikki:hover{
+div{
+    display:block;
+    text-align: center;
+    background-color: rgba(62, 103, 119, 0.137);
+    margin:auto;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.iconeseiya{
+    box-shadow: 0px 5px 7px rgba(60, 173, 248, 0.596);
+    
+    
+}
+
+.iconeikki{
+    
     box-shadow: 0px 5px 7px rgba(98, 0, 255, 0.582);
 }
 
-.iconeshiryu:hover{
+.iconeikki img{
+    transform: translate(-13px,10px);
+}
+
+
+.iconeshiryu{
     box-shadow: 0px 5px 7px rgba(0, 168, 126, 0.582);
 }
 
-.cavaleiros{
-    position:absolute;
-    background:black url(../img/cdz.jpg) center center no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    width: 600px;
-    height: 320px;
+.logo img{
+    position: absolute;
     top: 50%;
     left: 50%;
 
-    transform: translate(-50%,-50%);
+    width: 300px;
+    transform: translate(-50%,-40%);
+}
+
+.cavaleiros{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: black url(../img/cdz.jpg) center center no-repeat;
+    background-size: cover;
+    
+
+    width: 270px;
+    height: 120px;
+
+    transform: translate(-50%,100%);
 }
 
 .cavaleiros:hover{
-    border: 2px solid yellow;
-    background: url(../img/gifcdz.gif) center center no-repeat;
+    background:url(../img/gifcdz.gif) center center no-repeat;
     background-size: cover;
-    transition: border .1s,background-image .4s ease-in-out;
+    border: 3px solid gold;
+
+    transition: background-image .3s,border .5s ease-in-out;
 }
 
 
