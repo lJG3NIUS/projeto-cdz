@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px){
+    nav{
+        text-align: center;
+        height: 70px;
+        background-color:rgba(62, 103, 119, 0.137) ;
+        box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.356);
+    }
+    div{
+        display: inline;
+        margin: 0px 60px;  
+        border-radius: 3px;
+        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.39);
+    }
+
+    .iconeseiya{
+        background-color: rgba(240, 248, 255, 0.048);
+        padding: 18px;
+        margin-right: 90px;
+        box-shadow: none;
+    }
+
+    .iconeseiya:hover{
+        box-shadow: 0px 5px 7px rgba(27, 165, 245, 0.582);
+        transition-duration: .5s ;
+    }
+
+    .iconeikki{
+        background-color: rgba(240, 248, 255, 0.048);
+        padding: 18px 30px;
+        margin-right: 90px;
+        box-shadow: none;
+    }
+
+    .iconeikki:hover{
+        box-shadow: 0px 5px 7px rgba(98, 0, 255, 0.582);
+    }
+
+    .iconeshiryu{
+        background-color: rgba(240, 248, 255, 0.048);
+        padding: 18px 23px;
+        margin-right: 90px;
+        box-shadow: none;
+    }
+
+    .iconeshiryu:hover{
+        box-shadow: 0px 5px 7px rgba(0, 168, 126, 0.582);
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .cavaleiros{
+        display: none;
+    }
+
+
+}
