@@ -36,6 +36,7 @@
 
     .iconeikki:hover{
         box-shadow: 0px 5px 7px rgba(98, 0, 255, 0.582);
+        transition-duration: .5s ;
     }
 
     .iconeshiryu{
@@ -47,6 +48,7 @@
 
     .iconeshiryu:hover{
         box-shadow: 0px 5px 7px rgba(0, 168, 126, 0.582);
+        transition-duration: .5s ;
     }
 
     .logo{
