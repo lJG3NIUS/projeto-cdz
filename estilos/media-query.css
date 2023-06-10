@@ -30,11 +30,17 @@
     .header{
         position: absolute;
         left: 0;
-        display: inline-block;
         width: 170px;
         height: 70px;
         background-color: rgb(255, 217, 0);
         border-radius: 0px 5px 5px 0px;
+       
+    }    
+
+    .header:hover{
+        background: black url(../img/gifcdz.gif) center center no-repeat;
+        background-size: cover;
+        transition: background-image .5s ease-in-out;
     }
 
     .header img{
@@ -48,11 +54,7 @@
         display: none;
     }
 
-    .header:hover{
-        background: url(../img/gifcdz.gif) center center no-repeat;
-        background-size: cover;
-        transition: ;
-    }
+    
 
     .iconeseiya{
         display: inline-block;
@@ -127,13 +129,7 @@
         transition: height 1s ease;
     }
 
-    .logo{
-        display: block;
-    }
-
-    .cavaleiros{
-        display: none;
-    }
+    
 
 
    
