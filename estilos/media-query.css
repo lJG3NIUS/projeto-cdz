@@ -142,14 +142,16 @@
         left: 225px;
         height: 580px;
         width: 250px;
-        background-color:rgb(3, 152, 197) 
+        background:rgb(0, 247, 255) url(../img/seiya.png) center center no-repeat ;
+        background-size: contain;
+        box-shadow: 0px 5px 10px 10px rgba(0, 247, 255, 0.5) ;
         
     }
 
 
     .container:hover{
-        background: rgb(0, 217, 255)   center center no-repeat ;
-        box-shadow: 0px 5px 10px 10px rgba(0, 247, 255, 0.555)  ;
+        background: rgb(0, 247, 255) url(../img/meteoro.gif)    center center no-repeat ;
+        
         background-size: cover;
         
         transition-duration: .7s ;
