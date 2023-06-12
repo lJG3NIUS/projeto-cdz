@@ -81,7 +81,7 @@
 
     .iconeikki{
         display: inline-block;
-        border-radius: 3px;
+        border-radius: 3px 3px 0px 0px;
         border: 1px solid rgb(180, 37, 1);
         margin: 10px 90px;
         box-shadow: none;
@@ -107,7 +107,7 @@
 
     .iconeshiryu{
         display: inline-block;
-        border-radius: 3px;
+        border-radius: 3px 3px 0px 0px;
         border: 1px solid  rgb(28, 255, 179);
         margin: 10px 90px;
         box-shadow: none;
