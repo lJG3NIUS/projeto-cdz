@@ -26,13 +26,14 @@ div{
     background-color: rgba(62, 103, 119, 0.137);
     margin:auto;
     width: 200px;
-    height: 60px;
+    height: 50px;
     border-radius: 5px 5px 0px 0px;
     font-weight: 700;
 }
 
 
 div img{
+    display: none;
     border-radius: 50%;
     width: 40px;
     margin-right: 5px;
@@ -43,8 +44,7 @@ div img{
 
 div a{
     text-decoration: none;
-    color: white;  
-
+    color: white; 
 }
 
 .header{
@@ -77,27 +77,27 @@ div a{
 }
 
 .container{
-    background: aqua url(../img/Pegasearmadura.png) center center no-repeat ;
+    background:rgb(0, 162, 255) url(../img/Pegasearmadura.png) center center no-repeat ;
     background-size: contain;
-    
+    box-shadow: 0px 3px 5px 3px rgba(27, 165, 245, 0.582) ;
     height: 130px;
     margin-bottom: 50px;
     border-radius: 0px 0px 7px 7px;
 }
 
 .container2{
-    background: rgb(0, 247, 255) url(../img/seiya200.png) center center no-repeat ;
+    background: rgb(255, 38, 0) url(../img/armadura-fenix.png) center center no-repeat ;
     background-size: contain;
-    box-shadow: 0px 2px 5px 5px rgba(0, 255, 255, 0.37); 
+    box-shadow: 0px 2px 5px 5px rgba(255, 51, 0, 0.445); 
     height: 130px;
     margin-bottom: 50px;
     border-radius: 0px 0px 7px 7px;
 }
 
 .container3{
-    background: rgb(0, 247, 255) url(../img/seiya200.png) center center no-repeat ;
+    background :rgb(28, 255, 179) url(../img/armadura-dragao.png) center center no-repeat ;
     background-size: contain;
-    box-shadow: 0px 2px 5px 5px rgba(0, 255, 255, 0.37); 
+    box-shadow: 0px 2px 5px 5px rgba(28, 255, 179, 0.452); 
     height: 130px;
     margin-bottom: 50px;
     border-radius: 0px 0px 7px 7px;
