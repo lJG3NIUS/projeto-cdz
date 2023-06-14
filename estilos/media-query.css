@@ -70,6 +70,7 @@
     .iconeseiya{
         display: inline-block;
         border-radius: 3px 3px 0px 0px;
+        color: rgb(76, 194, 194);
         border: 1px solid  rgb(0, 247, 255);
         margin: 10px 90px;
         box-shadow: none;
@@ -77,11 +78,9 @@
         height: 0;
     }
 
-    .iconeseiya a {
-        color: rgb(76, 194, 194);
-    }
 
     .iconeseiya:hover{
+        color: white;
         height: 60px;
         background-color: rgb(0, 247, 255);
         box-shadow: 0px 5px 10px 10px rgba(0, 255, 255, 0.37); 
@@ -153,7 +152,6 @@
         background:rgb(0, 247, 255) url(../img/seiya.png) center center no-repeat ;
         background-size: contain;
         box-shadow: 0px 5px 10px 10px rgba(0, 247, 255, 0.5) ;
-        cursor: default;
         
     }
 
@@ -176,7 +174,7 @@
         background:rgb(255, 38, 0) url(../img/ikki2.png) left center no-repeat;
         background-size: contain;
         box-shadow: 0px 5px 10px 10px rgba(255, 51, 0, 0.445) ;
-        cursor: default;
+        
     }
 
     .container2:hover{
@@ -195,7 +193,7 @@
         background:  rgb(28, 255, 179) url(../img/Shiryu2.png) center center no-repeat;
         background-size: contain;
         box-shadow: 0px 5px 10px 10px rgba(28, 255, 179, 0.452) ;
-        cursor: default;
+
     }
 
     .container3:hover{
