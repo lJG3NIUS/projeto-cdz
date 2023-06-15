@@ -88,6 +88,7 @@
 
     .iconeikki{
         display: inline-block;
+        color:rgb(250, 103, 66) ;
         border-radius: 3px 3px 0px 0px;
         border: 1px solid rgb(255, 38, 0);
         margin: 10px 90px;
@@ -98,9 +99,6 @@
         
     }
 
-    .iconeikki a{
-        color:rgb(250, 103, 66) ;
-    }
 
 
     .iconeikki:hover{
@@ -114,6 +112,7 @@
 
     .iconeshiryu{
         display: inline-block;
+        color: rgb(59, 197, 163) ;
         border-radius: 3px 3px 0px 0px;
         border: 1px solid  rgb(28, 255, 179);
         margin: 10px 90px;
@@ -122,9 +121,6 @@
         height: 0;
     }
 
-    .iconeshiryu a{
-        color: rgb(59, 197, 163) ;
-    }
 
 
     .iconeshiryu:hover{
